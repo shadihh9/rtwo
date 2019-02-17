@@ -1,0 +1,48 @@
+{
+  "name": "rtwo",
+  "version": "1.0.3",
+  "description": "Get user info of a Twitter user",
+  "author": "theviperxxsy <theviperxxsy@mail.ru> (syrianupdated.online)",
+  "bin": {
+    "rtwo": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "twitter",
+    "user",
+    "username",
+    "handle",
+    "bio",
+    "tweets",
+    "followers",
+    "following",
+    "likes",
+    "joined"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "colors": "*",
+    "got": "^6.7.1",
+    "log-update": "^2.0.0",
+    "ora": "^1.2.0",
+    "total-release": "*",
+    "update-notifier": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0",
+    "pify": "^2.2.0"
+  },
+  "xo": {
+    "esnext": true
+  },
